@@ -57,7 +57,7 @@ async function uploadToPastebin(input, title = 'Untitled', format = 'json', priv
         }
 
         const pasteId = pasteUrl.replace(/https?:\/\/[^/]+\//, '');
-        const customUrl = `shahzebyc3/SHAHBAZ-XD-LITE_${pasteId}`;
+        const customUrl = `SHAHBAZ-XD-LITE_${pasteId}`;
 
         console.log('✅ Session paste URL:', customUrl);
         return customUrl;
